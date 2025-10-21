@@ -27,3 +27,17 @@ Create a file called .babelrc (or babel.config.json) in your project root of app
    const Button = React.lazy(() => import('app1/components/Button'));
 
 
+## Run 
+### App1
+npm start
+
+### App2
+npm start
+
+### MAke sure:
+package.json of app1 and app2 has below:
+
+"scripts": {
+"start": "webpack serve --mode development",
+"build": "webpack --mode production"
+},
